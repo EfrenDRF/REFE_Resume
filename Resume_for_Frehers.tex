@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.3in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{multicol}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Efren Del Real Frias} % Your name
+\address{Zapopan Jalisco Mexico} % Your address
+\address{(+52)3321889727 , efren.delrealf@gmail.com} % Your phone number and email
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE/SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Profile}
+Pro-active and enthusiastic professional able to work in different projects and team environment.
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{Bosch Mexico}{May 2019 - Present}{Embedded software developer}{}
+\item I am working in an automotive project related to Gateway ECU module. where my main role is to be an AUTOSAR integrator. Morover, I am part to the software development life cycle. starting from customer requirements, software development/maintenance, static code analysis (MISRA), unit testing, validation support and finally production release to customer.
+
+
+\end{rSubsection}
+
+\begin{rSubsection}{Hetpro}{Sep. 2018 - Apr. 2019}{Software developer}{}
+\item  I worked development IOT projects/technologycal solution. Combining high-level software and low-level electronics. The main role was develompt an embedded code for 32bit microcontroller to get and process the data of some physical magnitude (temperature, electrical current, vibrations, etc..) provided by different kind of sensors( digital or analogical). Executing actions in case one of the varibles exceeds any threshold, or simply transmit the data to embedded Linux system (Rasberry PI) then  keep it into databases (MySQL) and finally displays data statistics into web pages.
+
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+\begin{rSubsection}{Centro Universitario de Ciencias Exactas e Ingenierias}{Aug. 2014 - Dec. 2018}{Bachelor degree in communications and electronics engineer}{}
+\item \begin{multicols}{2}
+    \begin{itemize}
+        \item AC/DC electrical circuits
+        \item Analog and digital circuit design
+        \item Power electronics
+        \item Microwave theory
+        \item Communications systems
+        \item Control systems
+        \item Instrumentation
+        \item Embedded systems
+    \end{itemize}
+\end{multicols}
+
+\end{rSubsection}
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Technical Skills & Linux, Git, VBA, MISRA C\\
+\\
+Programming languages \ & ARM Assembly,  VHDL, C, C++, Python \\
+\\
+%Web development (basic) & MySQL, PHP, JavaScript, HTML, CSS\\
+%\\
+Communication protocols & CAN, I2C, SPI, UART, UDS\\
+\\
+Software tools  & Multisim, Matlab, LabVIEW\\
+\\
+Laboratory tools & Oscilloscope, Spectrum analyzer, Multimeter\\
+                & Power supply , Function generators \\
+\\
+Vector tools & DaVinci Configurator, VectorCAST, CANalyzer, CANoe, CAPL script \\
+\end{tabular}
+
+\end{rSection}
+
+
+%--------------------------------------------------------------------------------
+%    Projects And Seminars
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Self-learning/Trainings}
+{\bf Mastering RTOS} \hfill {\em June 2020} \\
+Hands on FreeRTOS on STM32F4xx and ARM cortex M bases microcontrollers\\
+\\
+{\bf ARM Assembly Language} \hfill {\em Apr. 2020} \\
+ARM instruction set, peripheral driver development, algorithms.\\
+\\
+{\bf Mastering Microcontroller with Embedded Driver Development} \hfill {\em Jan. 2020} \\
+Bare metal driver development systems using Embedded C Writing drivers for STM32xx \\
+GPIO,I2C,SPI,USART from scratch\\
+\end{rSection}
+
+
+\end{document}
