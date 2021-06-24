@@ -24,18 +24,23 @@
 
 \usepackage[left=0.75in,top=0.3in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \usepackage{multicol}
+\usepackage{fontawesome}
+\usepackage{hyperref}
+
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Efren Del Real Frias} % Your name
-\address{Zapopan Jalisco Mexico} % Your address
-\address{(+52)3321889727 , efren.delrealf@gmail.com} % Your phone number and email
+\address{Guadalajara, Jalisco, Mexico} % Your address
+\address{(+52)3321889727, efren.delrealf@gmail.com, \href{https://github.com/EfrenDRF}{\faGithub}, \href{https://www.linkedin.com/in/efren-del-real-frias-b68184174/}{\faLinkedin}} % Your phone number and email
+
 
 \begin{document}
+
 %----------------------------------------------------------------------------------------
 %	OBJECTIVE/SUMMARY SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Profile}
-Pro-active and enthusiastic professional able to work in different projects and team environment.
+Pro-active and enthusiastic professional able to work with  different technology, and team environment.
 \end{rSection}
 
 
@@ -45,15 +50,12 @@ Pro-active and enthusiastic professional able to work in different projects and 
 
 \begin{rSection}{Work Experience}
 
-\begin{rSubsection}{Bosch Mexico}{May 2019 - Present}{Embedded software developer}{}
-\item I am working in an automotive project related to Gateway ECU module. where my main role is to be an AUTOSAR integrator. Morover, I am part to the software development life cycle. starting from customer requirements, software development/maintenance, static code analysis (MISRA), unit testing, validation support and finally production release to customer.
-
-
+\begin{rSubsection}{Embedded software engineer}{May 2021 - Present}{Capgemini Engineering}{}
+\item Embedded sw coding, maintenance of drivers and math algorithms in an automotive project working on Light Driver Module(LDM). 
 \end{rSubsection}
 
-\begin{rSubsection}{Hetpro}{Sep. 2018 - Apr. 2019}{Software developer}{}
-\item  I worked development IOT projects/technologycal solution. Combining high-level software and low-level electronics. The main role was develompt an embedded code for 32bit microcontroller to get and process the data of some physical magnitude (temperature, electrical current, vibrations, etc..) provided by different kind of sensors( digital or analogical). Executing actions in case one of the varibles exceeds any threshold, or simply transmit the data to embedded Linux system (Rasberry PI) then  keep it into databases (MySQL) and finally displays data statistics into web pages.
-
+\begin{rSubsection}{Embedded software developer}{May 2019 - April 2021}{Bosch Mexico}{}
+\item SW coding, configuration, maintenance, static code analysis and unit testing in an automotive project base on AUTOSAR architecture worked on Gateway Module(GWM).
 \end{rSubsection}
 
 \end{rSection}
@@ -62,24 +64,30 @@ Pro-active and enthusiastic professional able to work in different projects and 
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Education}
-\begin{rSubsection}{Centro Universitario de Ciencias Exactas e Ingenierias}{Aug. 2014 - Dec. 2018}{Bachelor degree in communications and electronics engineer}{}
-\item \begin{multicols}{2}
-    \begin{itemize}
-        \item AC/DC electrical circuits
-        \item Analog and digital circuit design
-        \item Power electronics
-        \item Microwave theory
-        \item Communications systems
-        \item Control systems
-        \item Instrumentation
-        \item Embedded systems
-    \end{itemize}
-\end{multicols}
-
+\begin{rSubsection}{Bachelor degree in communications and electronics engineer}{Aug. 2014 - Dec. 2018}{Centro Universitario de Ciencias Exactas e Ingenierias}{}
+\item \textbf{Relevant coursework:} Analog and digital electronics, communications systems, embedded systems and control systems.
 \end{rSubsection}
 \end{rSection}
 
+%--------------------------------------------------------------------------------
+%    Projects And Seminars
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Self-learning/Trainings}
+{\bf Data Analyst (DataCamp)} \hfill {\em May 2021 - Present} \\
+Database design on SQL, write queries, functions and stored procedures.\\
+\\
+{\bf Python Programmer (DataCamp)} \hfill {\em May 2021 - Present} \\
+Manipulate data, write efficient python code.\\
+\\
+{\bf Mastering Microcontroller with Embedded Driver Development (Udemy)} \hfill {\em Jan. 2021} \\
+Bare metal driver development systems using Embedded C Writing drivers for STM32xx \\
+GPIO,I2C,SPI,USART from scratch\\
+\\
+{\bf Mastering RTOS (Udemy)} \hfill {\em June 2020} \\
+Hands on FreeRTOS on STM32F4xx and ARM cortex M bases microcontrollers\\
+\\
 
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
@@ -88,39 +96,23 @@ Pro-active and enthusiastic professional able to work in different projects and 
 \begin{rSection}{Technical Strengths}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Technical Skills & Linux, Git, VBA, MISRA C\\
+Programming languages \ & ARM Assembly, Embedded C, OPP C++, Python \\
 \\
-Programming languages \ & ARM Assembly,  VHDL, C, C++, Python \\
+Technical Skills & Git, Linux, DOORs, Model V, MISRA C\\
 \\
 %Web development (basic) & MySQL, PHP, JavaScript, HTML, CSS\\
 %\\
-Communication protocols & CAN, I2C, SPI, UART, UDS\\
+Vector tools & DaVinci Configurator, VectorCAST, CANalyzer, CANoe, CAPL Script \\
 \\
-Software tools  & Multisim, Matlab, LabVIEW\\
+Communication protocols & CAN, I2C, SPI, USART, UDS\\
 \\
-Laboratory tools & Oscilloscope, Spectrum analyzer, Multimeter\\
-                & Power supply , Function generators \\
-\\
-Vector tools & DaVinci Configurator, VectorCAST, CANalyzer, CANoe, CAPL script \\
+Laboratory tools & Oscilloscope, Multimeter, Power supply, Digital anlyzer\\
 \end{tabular}
 
 \end{rSection}
 
 
-%--------------------------------------------------------------------------------
-%    Projects And Seminars
-%-----------------------------------------------------------------------------------------------
-\begin{rSection}{Self-learning/Trainings}
-{\bf Mastering RTOS} \hfill {\em June 2020} \\
-Hands on FreeRTOS on STM32F4xx and ARM cortex M bases microcontrollers\\
-\\
-{\bf ARM Assembly Language} \hfill {\em Apr. 2020} \\
-ARM instruction set, peripheral driver development, algorithms.\\
-\\
-{\bf Mastering Microcontroller with Embedded Driver Development} \hfill {\em Jan. 2020} \\
-Bare metal driver development systems using Embedded C Writing drivers for STM32xx \\
-GPIO,I2C,SPI,USART from scratch\\
-\end{rSection}
+
 
 
 \end{document}
